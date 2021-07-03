@@ -8,12 +8,12 @@ export default class GetItem {
         const array_path = [];
         let i;
         const obj_path = {
-                            img1 : '../img/manette.png',
-                            img2 : '../img/true.png',
-                            img3 : '../img/mort.png',
-                            img4 : '../img/carre.png',
-                            img5 : '../img/false.png',
-                            img6 : '../img/child.png',
+                            img1 : './img/manette.png',
+                            img2 : './img/true.png',
+                            img3 : './img/mort.png',
+                            img4 : './img/carre.png',
+                            img5 : './img/false.png',
+                            img6 : './img/child.png',
         }
         
         for (i = 1; i < 3; i++) {           
