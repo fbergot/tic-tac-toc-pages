@@ -17,8 +17,8 @@ html , body {
 }
 
 .menu {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     border: 1px solid grey;
     min-height: 420px;
     z-index: 2;
@@ -47,11 +47,11 @@ html , body {
 }
 
 .all_content1 {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .all_content2 {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .content_div_img2 {
@@ -80,12 +80,18 @@ input:hover {
     font-family: cursive;
 }
 
-.text_option div {
-    display: flex;
+.textOptionContainer {
+     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
+
+.inlineText1, .inlineText2 {
+    display: inline;
+    margin:  0 0.5em 0 0.5em;
+}
+
 
 input:hover {
    border: 1px solid black;
@@ -118,6 +124,12 @@ input:hover {
 @media screen and (max-width: 750px) {
    .menu {
        width: 75%;
-       height: 75%;
+       height: 77%;
    }
+
+
+    .inlineText1, .inlineText2 {
+        display: inline;
+        margin:  0 1em 0 1em;
+    }
 }
