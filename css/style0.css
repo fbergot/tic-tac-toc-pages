@@ -114,14 +114,10 @@ input:hover {
     transition: background-color 0.8s;
 }
 
-@media(min-height: 848px) {
-    .content_but button {
-    margin-top: 35px;
-    padding: 10px;
-    z-index : 3;
-    cursor: pointer;
-    background-color: rgb(16, 21, 70);
-    color: white;
-    font-size: 17px;
+
+@media screen and (max-width: 750px) {
+   .menu {
+       width: 75%;
+       height: 75%;
+   }
 }
-} 

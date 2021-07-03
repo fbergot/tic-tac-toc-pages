@@ -28,8 +28,19 @@ Ensuite, chaque joueur joue une case afin d'essayer d'alligner 3 cases de même 
 ** Considérons un quadrillage de 9 cases représentant l'espace bi-dimentionnel du jeu :
                                                
 ** Voilà un tableau de tableaux de toutes les possibilitées gagnantes dans le jeu. Cela est important car on pourra s'en servir pour que l'algo en déduise les positions gagnantes, perdantes, ou neutres.
-						
-----------|----------|----------|
+
+[
+        [1,2,3],
+        [4,5,6],
+        [7,8,9],
+        [1,4,7],
+        [2,5,8],
+        [3,6,9],
+        [1,5,9],
+        [7,5,3]
+]
+
+----------|----------|----------|                
 |	  |          |          |
 |    1    |      2   |     3 	|             
 |         |          |          |                      
@@ -51,7 +62,7 @@ Ensuite, chaque joueur joue une case afin d'essayer d'alligner 3 cases de même 
         #-4 Des classes pour chacunes leurs fonctions logiques : -Une pour la fabrication du Canvas HTML5 (incluant le quadrillage du jeu, qui inclut aussi la taille des cases dans le Canvas qui permettrons de savoir plus tard dans le jeu quelles cases ont été cliquées, cela grâce à leurs coordonnées en x et y dans le dit Canvas.
 
 
-#-5 La class principal, le "moteur du jeu en lui même : Cela est un peu fastidieux à détailler donc je vous invite à regarder le code vous même : c'est la méthode ia() qui affecte une valeur numérique aux cases afin que la machine puisse savoir quelle cases elle doit jouer.Malin non ??
+#-5 La class principal, le "moteur" du jeu en lui même : Cela est un peu fastidieux à détailler donc je vous invite à regarder le code : c'est la méthode ia() qui affecte une valeur numérique aux cases afin que la machine puisse savoir quelle cases elle doit jouer.
 
 
 
