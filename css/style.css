@@ -54,6 +54,7 @@ h1 {
 }
 canvas {
     border-radius: 35px;
+    margin: auto;
 }
 .replay_button {
     padding: 10px;
