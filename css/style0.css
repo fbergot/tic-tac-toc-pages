@@ -18,12 +18,13 @@ html , body {
 
 .menu {
     width: 70%;
-    height: 70%;
+    height: 60%;
     border: 1px solid grey;
     min-height: 420px;
     z-index: 2;
     background-color: white;
     border-radius: 25px;
+    
 }
 
 .title_menu {
@@ -125,7 +126,7 @@ input:hover {
 @media screen and (max-width: 750px) {
    .menu {
        width: 75%;
-       height: 77%;
+       height: 75%;
    }
 
 
